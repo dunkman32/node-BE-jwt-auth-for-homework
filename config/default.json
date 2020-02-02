@@ -1,0 +1,13 @@
+{
+  "mongo-url": "mongodb://localhost:27017/homework",
+  "logger": {
+    "mongoLogger": false,
+    "logDirPath": "logs",
+    "logFileName": "info.log"
+  },
+  "token": {
+    "secret": "token secret",
+    "timeout": "1d"
+  },
+  "reset-link": "http://hurry.maxin.ai/auth/reset-password/"
+}
